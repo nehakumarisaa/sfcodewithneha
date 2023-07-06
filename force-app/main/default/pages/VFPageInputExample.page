@@ -1,0 +1,13 @@
+<apex:page standardController="Account">
+  <apex:form >
+    <apex:PAgeBlock >
+    <apex:pageBlockSection >
+      <apex:inputField value="{!Account.name}"/>
+      <apex:inputField value="{!Account.billingcity}"/>
+      <apex:inputField value="{!Account.billingcountry}"/>
+      <apex:inputField value="{!Account.email__c}"/>
+      <apex:commandButton action="{!Save}" value="submit"/>
+      </apex:pageBlockSection>
+    </apex:PAgeBlock>
+  </apex:form>
+</apex:page>

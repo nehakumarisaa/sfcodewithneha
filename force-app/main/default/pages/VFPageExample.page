@@ -1,0 +1,7 @@
+<apex:page controller="SearchExample">
+
+  <apex:form >
+  <apex:inputText value="{!sName}" label="Account Name"/>
+  </apex:form>
+  
+</apex:page>

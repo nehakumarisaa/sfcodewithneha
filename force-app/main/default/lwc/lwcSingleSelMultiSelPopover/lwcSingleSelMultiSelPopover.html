@@ -1,0 +1,83 @@
+<template>
+    <lightning-card>
+        <h1 slot="title">
+            <lightning-icon icon-name="custom:custom57" size="small"></lightning-icon>
+            <span class="slds-p-left_small">
+                    Click the button below to open the pop-up
+            </span>
+        </h1>
+        <div slot="footer">
+            <lightning-button label="Open pop-up" slot="actions" onclick={openModal}></lightning-button>
+        </div>
+        <div if:true={showSingleLabel}>
+            <p class="lwc-value slds-align_absolute-center" >Single Select Response is -</p>
+            <template for:each={singleValue} for:item="item">
+                <p class="lwc-value slds-align_absolute-center" key={item.id}>
+                    {item.value}
+                </p>
+            </template>
+        </div>
+        <div if:true={showMultiLabel}>
+            <p class="lwc-value slds-align_absolute-center" >Multi Select Response is -</p>
+            <template for:each={multiValue} for:item="item">
+                <p class="lwc-value slds-align_absolute-center" key={item.id}>
+                    {item.value}
+                </p>
+            </template>
+        </div>
+    </lightning-card>
+    <template if:true={showModal}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_large" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <lightning-button-icon icon-name="utility:close" class="slds-modal__close"  variant="bare" size="large" onclick={closeModal} alternative-text="close">
+                    </lightning-button-icon>
+                    <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">Single Select / Multi Select Popup</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <div class="slds-align_absolute-center">
+                        <lightning-radio-group name="radiogroup"
+                            options={options}
+                            value={value}
+                            type="button"
+                            onchange={changeSelection}>
+                        </lightning-radio-group>
+                    </div>
+                    <lightning-accordion if:true={openAccordian}>
+                        <template for:each={contacts} for:item="item">
+                            <div key={item.Id}>
+                                <template if:true={showSelectOptions}>
+                                    <lightning-accordion-section name={item.name} label={item.name}>
+                                        <template if:false={isMultiSelect}>
+                                            <lightning-radio-group name="radiogroup"
+                                                options={contactOptions}
+                                                value={value}
+                                                data-value={item.name}
+                                                data-id={item.id}
+                                                type="radio"
+                                                onchange={singleOptionSelection}>
+                                            </lightning-radio-group>
+                                        </template>
+                                        <template if:true={isMultiSelect}>
+                                            <lightning-checkbox-group name="checkboxgroup"
+                                                options={contactOptions}
+                                                value={value}
+                                                data-value={item.name}
+                                                data-id={item.id}
+                                                onchange={multiOptionSelection}>
+                                            </lightning-checkbox-group>
+                                        </template>
+                                    </lightning-accordion-section>
+                                </template>
+                            </div>
+                        </template>
+                    </lightning-accordion>
+                </div>
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_brand" onclick={SubmitResponce}>Submit</button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

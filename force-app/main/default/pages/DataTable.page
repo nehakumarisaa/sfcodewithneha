@@ -1,0 +1,11 @@
+<apex:page standardController="Account" >
+  
+
+    <apex:dataList value="{!Account.contacts}" var="Contact" type="circle">
+     
+        <apex:outputText value="{!Contact.name}"/> 
+        <apex:image url="{!$Resource.static1}" width="500" height="100"/>
+       
+    </apex:dataList>
+
+</apex:page>

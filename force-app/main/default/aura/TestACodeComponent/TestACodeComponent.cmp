@@ -1,0 +1,21 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+	<aura:attribute name="value1" type="Integer"/>
+    <aura:attribute name="value2" type="Integer"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+	<div class="slds-m-around_medium">
+    Hello
+    <lightning:input value="5" type="number" formatter="percent" />
+    <lightning:input value="5" type="number" formatter="percent-fixed" />
+        <lightning:input value="0.12345" type="number" formatter="percent"/>
+        <lightning:input value="0.12345" type="number" formatter="percent-fixed"/>
+        <lightning:input value="0.12345" type="number" formatter="percent" step="0.1"/>
+        <lightning:input value="0.12345" type="number" formatter="percent-fixed" step="0.1"/>
+        <lightning:input value="0.12345" type="number" formatter="percent" step="0.01"/>
+        <lightning:input value="0.12345" type="number" formatter="percent-fixed" step="0.01"/>
+         <lightning:input value="0.12345" type="number" formatter="percent" step="0.001"/>
+        <lightning:input value="0.12345" type="number" formatter="percent-fixed" step="0.001"/>
+        <lightning:formattedNumber value="1.234" style="percent-fixed" step="0.01" />
+        <lightning:formattedNumber value="1.234" style="percent" step="0.01"/>
+
+    </div>	
+</aura:component>

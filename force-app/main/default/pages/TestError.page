@@ -1,0 +1,4 @@
+<apex:page standardController="Account" extensions="TextErrorExtn">
+<apex:pageMessages / >
+ This is my second visual force page.
+</apex:page>

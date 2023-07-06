@@ -1,0 +1,100 @@
+.THIS .slds-table tr th, 
+.THIS .slds-table tr td {
+    padding: 5px !important;
+}
+.THIS .slds-spinner {
+    /*display: none;*/
+}
+.THIS h1 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.THIS .slds-card__header .slds-button {
+    /*margin-right: -10px;*/
+    margin-top: 10px;
+}
+.THIS .slds-card__header {
+    
+}    
+.THIS .slds-media__figure {
+    position: relative;
+    top: -5px;
+    /*left: -10px;*/
+}
+.THIS article.slds-card {
+    min-height: 290px;
+    position: relative;
+}
+.THIS article.slds-card .slds-align_absolute-center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.THIS .slds-card__header-link {
+    display: inline-block;
+    margin-top: -10px;
+    position: relative;
+}
+
+.THIS .hideDiv {
+    display: none;
+}
+
+.THIS .modal-dialog{
+    margin-top: 10%;
+}
+.THIS .modal-body{
+    overflow-y: scroll;
+    height: 60vh;
+}
+
+.THIS .allTilesSection .slds-card__body {
+    height: 180px;
+    position: relative;
+}
+
+.THIS .slds-card__header a .slds-popover {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display:none;
+}
+
+.THIS .slds-card__header a:hover .slds-popover {
+    display: block;
+}
+.THIS .footerLink {
+    position: absolute;
+    bottom: -40px;
+    right: 10px;
+}
+.THIS .placeInCenter {
+    position: absolute;
+    text-align: center;
+	vertical-align: middle;
+	line-height: 90px;     
+}
+.THIS .textTransform{
+    text-transform: lowercase;
+}
+
+.THIS .typeDisplay{
+    display: inline;
+}
+.THIS .statusDisplay{
+    display: inline;
+    color:#B0ADAB;
+    font-style: italic;
+    
+}
+.THIS .userDisplay{
+    
+    font-style: italic;
+    
+}
+.THIS .relative{
+    position:relative;
+}

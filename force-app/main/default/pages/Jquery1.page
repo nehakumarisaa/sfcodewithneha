@@ -1,0 +1,50 @@
+<apex:page >
+<apex:form >
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script>
+    j$ = jQuery.noConflict();
+    if(j$)
+        alert('JQuery Loaded Successfully');
+    
+    function show(){
+        alert('Show function pop up');
+        j$('[id$=pb2]').toggle();
+    }
+    
+    function copyvalues(){
+        alert('Copy Value Function calling..');
+        varItemValue = j$('[id$=name]').val();
+        alert('Item Value is =>'+varItemValue);
+        j$('[id$=pb4copy]').val(varItemValue);
+    }
+    $(button).click(function(){
+        $("#pb5").hide();
+    });
+    
+</script>
+    <apex:pageBlock title="FirstPB" id="pb1" onMouseOver="show()">
+        This is Block1.
+    </apex:pageBlock>
+    <apex:pageBlock title="SecondPB" id="pb2">
+        This is Block2.
+    </apex:pageBlock>
+    <apex:pageBlock title="ThirdPB" id="pb3">
+        <apex:inputText id="name" onchange="copyvalues()"/> 
+    </apex:pageBlock>
+    <apex:pageBlock title="FourthPB" id="pb4">
+        <apex:inputText id="pb4copy" /> 
+    </apex:pageBlock>
+    <apex:pageBlock title="FifthPB" id="pb5">
+        This is Fifth Block.
+    </apex:pageBlock>
+    <apex:pageBlock title="SixthPB" id="pb6">
+        This is Sixth Block.
+    </apex:pageBlock>
+    <apex:pageBlock title="SevenPB" id="pb7">
+        This is Seventh Block.
+    </apex:pageBlock>
+    <button>click</button>
+</apex:form>
+</apex:page>

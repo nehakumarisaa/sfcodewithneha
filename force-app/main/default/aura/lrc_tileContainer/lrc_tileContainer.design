@@ -1,0 +1,4 @@
+<design:component label="Tiles">
+	<design:attribute name="tilesCount" label="Number of Tiles" description="The fields to Show in related list comma separted" required="true"/>
+    <design:attribute name="appName" label="Application Name" required="true" description="Application name from which fields are to be fetched"/>
+</design:component>

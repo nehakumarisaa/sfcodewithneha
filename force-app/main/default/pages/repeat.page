@@ -1,0 +1,15 @@
+<apex:page standardController="Account">
+  <table border="2">
+    <tr> 
+      <th>Name</th>
+      <th>Contact</th>
+    </tr>
+    
+    <apex:repeat var="Contact" value="{!Account.Contacts}">
+      <tr>
+        <td>{!Contact.name}</td>
+       
+      </tr>
+    </apex:repeat>
+  </table>
+</apex:page>

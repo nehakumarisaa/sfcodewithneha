@@ -1,0 +1,58 @@
+<aura:component controller="LRC_TileStateController">
+    <aura:attribute name="loggedInUser" type="Object"/>
+    <aura:attribute name="isDoneRendering" type="Boolean" default="false"/>
+    <aura:attribute name="appName" type="String" default=""/>
+    <aura:attribute name ="showSpinner" type ="Boolean" default = "false"/>
+    
+	<aura:attribute name="containerClass" type="String" default="slds-p-horizontal_x-small slds-m-bottom_medium slds-small-size_1-of-1 slds-large-size_1-of-3 slds-medium-size_1-of-1 dynamicTile"/>
+    <aura:attribute name ="tilesCount" type = "Integer" default = "1"/>
+    <aura:attribute name ="tilesList" type = "List" default = "[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="tileState" type="Map" default='{"tile1":{
+          "horizontalExpanded":"",
+          "verticalCollapsed":""
+       }}'/>
+    <div class="slds-page-header">
+      	<div class="slds-grid">
+                <div class="slds-col slds-m-horizontal_small slds-has-flexi-truncate">
+                    <div class="slds-media slds-no-space slds-grow">
+                        <div class="slds-media__figure">
+                            <lightning:icon iconName="custom:custom57"/>
+                        </div>
+                        <div class="slds-media__body">
+                        	<div class="slds-grid">
+                        	<span class="slds-size_10-of-12">
+                            <h1 class="slds-page-header__title slds-m-right_small slds-align-middle slds-truncate cust-top-margin" >
+								Tile Container &nbsp;&nbsp;
+                            </h1>
+                            <p>
+                            Tile Container
+                                <!-- Automate environment requests and deployement requests -->
+                            </p>
+                            </span>
+                            <span class="slds-size_2-of-12">
+                                    <button class="slds-button slds-button_neutral slds-float_right" onclick="{!c.saveTileData}" id="saveLayout">Save</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="slds-grid slds-wrap allTilesSection">
+            <aura:iteration  items="{!v.tilesList}" var="tile" indexVar="indx">
+                <div data-tileIndex="{!indx}" id="teamMemberTile" class="{! v.containerClass + ' ' + tile.horizontalExpanded + ' ' + tile.verticalCollapsed}">
+                    <c:lrc_tileState />
+                    <c:lrc_tile name="{!'tile'+ (indx+1)}"/>
+                </div>
+            </aura:iteration>
+        </div>
+</div>
+    <!-- Section to show spinner-->
+    <aura:if isTrue="{!v.showSpinner}">
+        <div>
+            <lightning:spinner alternativeText="Loading" size="large" />
+        </div>
+    </aura:if>
+    <!-- End of Section to show spinner-->
+</aura:component>

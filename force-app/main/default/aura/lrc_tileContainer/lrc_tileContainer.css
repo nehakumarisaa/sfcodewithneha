@@ -1,0 +1,262 @@
+.THIS .allTilesSection {
+    padding-bottom: 60px;
+}
+.THIS .horizontalExpanded .slds-card .slds-card__body li {
+    width: 33.3%;
+    display: block;
+}
+
+.THIS .slds-card .slds-card__body li:nth-child(4),
+.THIS .slds-card .slds-card__body li:nth-child(5),
+.THIS .slds-card .slds-card__body li:nth-child(6),
+.THIS .slds-card .slds-card__body li:nth-child(7),
+.THIS .slds-card .slds-card__body li:nth-child(8),
+.THIS .slds-card .slds-card__body li:nth-child(9) {
+    display: none;
+}
+.THIS .horizontalExpanded .slds-card .slds-card__body li:nth-child(4),
+.THIS .horizontalExpanded .slds-card .slds-card__body li:nth-child(5),
+.THIS .horizontalExpanded .slds-card .slds-card__body li:nth-child(6),
+.THIS .horizontalExpanded .slds-card .slds-card__body li:nth-child(7),
+.THIS .horizontalExpanded .slds-card .slds-card__body li:nth-child(8),
+.THIS .horizontalExpanded .slds-card .slds-card__body li:nth-child(9) {
+    display: block;
+}
+
+.THIS .slds-card {
+    background-color: #F5F6FA;
+    min-height: auto !important;
+}
+
+.THIS .allTilesSection > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.THIS .verticalCollapsed .slds-card > .slds-card__body {
+    display: none;
+}
+
+.THIS .horizontalExpanded {
+    width: 100% !important;
+}
+.THIS .allTilesSection > div[data-tileindex="1"] {
+    order: 1;
+}
+
+.THIS .allTilesSection > div[data-tileindex="2"] {
+    order: 2;
+}
+
+.THIS .allTilesSection > div[data-tileindex="3"] {
+    order: 3;
+}
+
+.THIS .allTilesSection > div[data-tileindex="4"] {
+    order: 4;
+}
+
+.THIS .allTilesSection > div[data-tileindex="5"] {
+    order: 5;
+}
+
+.THIS .allTilesSection > div[data-tileindex="6"] {
+    order: 6;
+}
+
+.THIS .allTilesSection > div[data-tileindex="7"] {
+    order: 7;
+}
+
+.THIS .allTilesSection > div[data-tileindex="8"] {
+    order: 8;
+}
+
+.THIS .allTilesSection > div[data-tileindex="9"] {
+    order: 9;
+}
+
+.THIS .slds-table tr th, 
+.THIS .slds-table tr td {
+    padding: 5px !important;
+}
+.THIS h1 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.THIS .slds-card__header .slds-button {
+    margin-top: 10px;
+}
+.THIS .slds-card__header {
+    
+}    
+.THIS .slds-media__figure {
+    position: relative;
+    top: -5px;
+}
+.THIS article.slds-card {
+    position: relative;
+}
+.THIS article.slds-card .slds-align_absolute-center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.THIS .slds-card__header-link {
+    display: inline-block;
+    margin-top: -10px;
+    position: relative;
+}
+
+.THIS .hideDiv {
+    display: none;
+}
+
+.THIS .modal-dialog{
+    margin-top: 10%;
+}
+.THIS .modal-body{
+    overflow-y: scroll;
+    height: 60vh;
+}
+
+.THIS .allTilesSection .slds-card__body {
+    height: 230px;
+    position: relative;
+}
+
+.THIS .slds-card__header a .slds-popover {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display:none;
+}
+
+.THIS .slds-card__header a:hover .slds-popover {
+    display: block;
+}
+.THIS .footerLink {
+    position: absolute;
+    bottom: 0 !important;
+    right: 10px;
+}
+.THIS .placeInCenter {
+    position: absolute;
+    text-align: center;
+	vertical-align: middle;
+	line-height: 90px;     
+}
+.THIS .textTransform{
+    text-transform: lowercase;
+}
+
+.THIS .typeDisplay{
+    display: inline;
+}
+.THIS .statusDisplay{
+    display: inline;
+    color:#B0ADAB;
+    font-style: italic;
+    
+}
+.THIS .userDisplay{
+    
+    font-style: italic;
+    
+}
+
+.THIS .slds-icon-utility-lock svg {
+    fill: #0081F2;
+}
+
+
+
+/*STYLING FOR TILE STATE ICONS*/
+.THIS .iconSection {
+    z-index: 1;
+    top: 21px;
+    position: absolute;
+    right: 46px;
+}
+/*.THIS .iconSection:hover {
+    border: 1px solid rgb(221, 219, 218);
+    background-color: #fff;
+}*/
+.THIS ul.iconSection > li > button {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+.THIS ul.iconSection > li:hover>button {
+    background-color: #fff;
+    border: 1px solid lightgray;
+    opacity: 1;
+}
+
+.THIS ul.iconSection>li>ul a img {
+    opacity: .5;
+}
+
+.THIS ul.iconSection li.active {
+    /*opacity: 1*/
+}
+
+.THIS ul.iconSection>li:hover>ul a:hover img {
+    opacity: 1;
+}
+
+.THIS .horizontalExpanded .iconSection li ul li:nth-child(1) a img {
+    opacity: 1 !important;
+}
+
+.THIS .horizontalExpanded .iconSection li ul li:nth-child(1) a {
+    font-weight: bold;
+}
+
+.THIS .verticalCollapsed .iconSection li ul li:nth-child(3) img {
+    opacity: 1 !important;
+}
+
+.THIS .verticalCollapsed .iconSection li ul li:nth-child(3) a {
+    font-weight: bold;
+}
+
+.THIS .dynamicTile:not(.horizontalExpanded):not(.verticalCollapsed) .iconSection li ul li:nth-child(2) img {
+    opacity: 1;
+}
+
+.THIS .dynamicTile:not(.horizontalExpanded):not(.verticalCollapsed) .iconSection li ul li:nth-child(2) a {
+    font-weight: bold !important;
+}
+
+
+.THIS ul.iconSection > li > ul {
+    border: 1px solid transparent;
+    display: none;
+}
+.THIS ul.iconSection > li:hover > ul {
+    position: relative;
+    border: 1px solid rgb(221, 219, 218);
+    background-color: #fff;
+    display: block;
+    top: 25px;
+    right: 5px;
+}
+
+.THIS .iconSection .slds-button{
+    opacity: .5;
+}
+
+
+.THIS .slds-dropdown-trigger button {
+background: #fff;
+}
