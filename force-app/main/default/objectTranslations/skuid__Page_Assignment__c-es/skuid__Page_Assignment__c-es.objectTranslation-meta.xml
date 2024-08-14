@@ -10,8 +10,4 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Id de designación de página</nameFieldLabel>
-    <validationRules>
-        <errorMessage></errorMessage>
-        <name>skuid__Must_Select_Page_or_use_Standard_Layouts</name>
-    </validationRules>
 </CustomObjectTranslation>

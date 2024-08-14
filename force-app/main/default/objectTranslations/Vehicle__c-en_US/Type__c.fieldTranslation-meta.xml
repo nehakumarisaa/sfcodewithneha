@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label></label>
+    <label><!-- Type --></label>
     <name>Type__c</name>
     <picklistValues>
         <masterLabel>Economy</masterLabel>
-        <translation></translation>
+        <translation><!-- Economy --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Luxury</masterLabel>
-        <translation></translation>
+        <translation><!-- Luxury --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mid-Range</masterLabel>
-        <translation></translation>
+        <translation><!-- Mid-Range --></translation>
     </picklistValues>
 </CustomFieldTranslation>

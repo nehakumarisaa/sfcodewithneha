@@ -10,7 +10,7 @@
     </caseValues>
     <startsWith>Consonant</startsWith>
     <validationRules>
-        <errorMessage></errorMessage>
+        <errorMessage><!-- Exhaust Port Inspectors must work at least 150%. No coffee breaks! --></errorMessage>
         <name>Inspectors_Must_Work_Overtime</name>
     </validationRules>
 </CustomObjectTranslation>

@@ -11,15 +11,15 @@
     <layouts>
         <layout>AWS S3 Document Layout</layout>
         <sections>
-            <label></label>
+            <label><!-- Preview --></label>
             <section>Preview</section>
         </sections>
         <sections>
-            <label></label>
+            <label><!-- Upload --></label>
             <section>Upload</section>
         </sections>
         <sections>
-            <label></label>
+            <label><!-- sdf --></label>
             <section>sdf</section>
         </sections>
     </layouts>

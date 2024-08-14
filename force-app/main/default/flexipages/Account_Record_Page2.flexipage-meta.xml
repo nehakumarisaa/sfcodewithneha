@@ -161,6 +161,10 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
                 <componentName>runtime_sales_activities:activityPanel</componentName>
                 <identifier>runtime_sales_activities_activityPanel</identifier>
             </componentInstance>
@@ -222,6 +226,18 @@
             <componentInstance>
                 <componentName>slackv2:messageViewer</componentName>
                 <identifier>slackv2_messageViewer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>parentComponent</componentName>
+                <identifier>c_parentComponent</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>childComp</componentName>
+                <identifier>c_childComp</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

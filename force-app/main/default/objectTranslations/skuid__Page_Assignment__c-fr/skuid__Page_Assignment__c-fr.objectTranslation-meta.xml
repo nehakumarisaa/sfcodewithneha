@@ -11,8 +11,4 @@
     <gender>Feminine</gender>
     <nameFieldLabel>Id de désignation de page</nameFieldLabel>
     <startsWith>Consonant</startsWith>
-    <validationRules>
-        <errorMessage></errorMessage>
-        <name>skuid__Must_Select_Page_or_use_Standard_Layouts</name>
-    </validationRules>
 </CustomObjectTranslation>

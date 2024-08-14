@@ -11,7 +11,7 @@
     <layouts>
         <layout>AWSKey Layout</layout>
         <sections>
-            <label></label>
+            <label><!-- Details --></label>
             <section>Details</section>
         </sections>
     </layouts>

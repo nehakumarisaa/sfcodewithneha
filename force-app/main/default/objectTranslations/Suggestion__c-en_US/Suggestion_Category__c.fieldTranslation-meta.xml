@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label></label>
+    <label><!-- Suggestion Category --></label>
     <name>Suggestion_Category__c</name>
     <picklistValues>
         <masterLabel>Customer Service</masterLabel>
-        <translation></translation>
+        <translation><!-- Customer Service --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Employee Services</masterLabel>
-        <translation></translation>
+        <translation><!-- Employee Services --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Facilities/ IT</masterLabel>
-        <translation></translation>
+        <translation><!-- Facilities/ IT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Kitchen Snacks</masterLabel>
-        <translation></translation>
+        <translation><!-- Kitchen Snacks --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Other</masterLabel>
-        <translation></translation>
+        <translation><!-- Other --></translation>
     </picklistValues>
 </CustomFieldTranslation>
