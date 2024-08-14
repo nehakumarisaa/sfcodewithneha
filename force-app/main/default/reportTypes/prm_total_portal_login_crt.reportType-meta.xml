@@ -424,11 +424,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>DB_Region__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Phone_UUID__c</field>
             <table>Network.NetworkMembers</table>
         </columns>

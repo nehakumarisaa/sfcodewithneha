@@ -4,19 +4,4 @@
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>Remotevf</label>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>0</minorNumber>
-        <namespace>sb_security</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>10</minorNumber>
-        <namespace>sf_chttr_apps</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>8</majorNumber>
-        <minorNumber>11</minorNumber>
-        <namespace>skuid</namespace>
-    </packageVersions>
 </ApexPage>

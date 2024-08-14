@@ -3,9 +3,4 @@
     <apiVersion>34.0</apiVersion>
     <description>Default Force.com site footer component</description>
     <label>SiteFooter</label>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>9</minorNumber>
-        <namespace>sf_chttr_apps</namespace>
-    </packageVersions>
 </ApexComponent>

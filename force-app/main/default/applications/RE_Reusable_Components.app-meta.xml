@@ -29,7 +29,6 @@
         <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
-    <tabs>RE_Dependent_PicklistTab</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Reusable_Components_UtilityBar</utilityBar>
 </CustomApplication>

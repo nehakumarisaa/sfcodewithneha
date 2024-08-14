@@ -4,14 +4,4 @@
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>ShowImage</label>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>10</minorNumber>
-        <namespace>sf_chttr_apps</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>7</majorNumber>
-        <minorNumber>27</minorNumber>
-        <namespace>skuid</namespace>
-    </packageVersions>
 </ApexPage>

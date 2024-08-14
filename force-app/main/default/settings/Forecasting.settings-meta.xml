@@ -236,10 +236,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -313,7 +309,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -479,10 +474,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -555,7 +546,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -725,10 +715,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -802,7 +788,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -968,10 +953,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1044,7 +1025,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -1214,10 +1194,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1291,7 +1267,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -1457,10 +1432,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1533,7 +1504,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -1703,10 +1673,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1780,7 +1746,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -1946,10 +1911,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2022,7 +1983,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -2188,10 +2148,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2264,7 +2220,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -2430,10 +2385,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2506,7 +2457,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -2676,10 +2626,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2753,7 +2699,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>
@@ -2919,10 +2864,6 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N28000008GULS</field>
-            <label>DB Competitor</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>00N2800000481Yo</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -2995,7 +2936,6 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N2800000481Yn</field>
-            <field>00N28000008GULS</field>
             <field>00N2800000481Yo</field>
             <field>00N28000008rzyK</field>
             <field>00N28000008rzzr</field>

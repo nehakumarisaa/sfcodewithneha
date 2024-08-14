@@ -5,14 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default communities self registration confirmation page</description>
     <label>CommunitiesSelfRegConfirm</label>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>10</minorNumber>
-        <namespace>sf_chttr_apps</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>8</majorNumber>
-        <minorNumber>11</minorNumber>
-        <namespace>skuid</namespace>
-    </packageVersions>
 </ApexPage>
